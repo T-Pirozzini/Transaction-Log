@@ -1,21 +1,4 @@
-// classes
-class Invoice {
-  // client: string;
-  // details: string; 
-  // amount: number;
-
-  constructor(
-    readonly client: string,
-    private details: string,
-    public amount: number,
-  ) {
-    
-  }
-
-  format() {
-    return `${this.client} owes $${this.amount} for ${this.details}`
-  }
-}
+import { Invoice } from './classes/Invoice.js';
 
 const invOne = new Invoice('Ben', 'Owes for Pizza last Tuesday', 15);
 const invTwo = new Invoice('Chun-li', 'Owes for fighting lessons', 250);
@@ -25,7 +8,7 @@ invoices.push(invOne);
 invoices.push(invTwo);
 
 invoices.forEach(inv => {
-  console.log(inv.client, inv.details, inv.amount, inv.format());
+  console.log(inv.client, inv.amount, inv.format());
 });
 
 
