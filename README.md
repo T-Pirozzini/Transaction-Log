@@ -1,4 +1,4 @@
-## :money_with_wings: Finance Tracker
+## :money_with_wings: Finance Logger
 This is my first mini-project completed with Typescript. Practice with Generics, Enums and Tuples.
 #### Typescript
 
