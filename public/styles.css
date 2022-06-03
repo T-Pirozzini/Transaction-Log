@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Kodchasan:wght@300&family=Marcellus+SC&display=swap');
+
 body{
   margin: 0;
-  font-family: Roboto; 
+  font-family: 'Cinzel Decorative', cursive;
 }
 .wrapper{
   max-width: 960px;
@@ -17,8 +19,9 @@ ul{
 }
 li{
   padding: 6px 10px;
-  border: 1px solid #eee;
+  border: 1px solid #ff0aa7;
   margin: 10px auto;
+  font-family: 'Kodchasan', sans-serif;
 }
 li h4{
   color: #ff0aa7;
@@ -69,4 +72,5 @@ footer a{
   color: #999;
   margin-top: 40px;
   font-size: 0.7em;
+  font-family: 'Kodchasan', sans-serif;
 }
