@@ -3,7 +3,7 @@ import { ListTemplate } from './classes/ListTemplate.js';
 import { Payment } from './classes/Payment.js';
 import { HasFormatter } from './interfaces/HasFormatter.js';
 
-const form = document.querySelector('.new-item-form') as HTMLFormElement;
+let form = document.querySelector('.new-item-form') as HTMLFormElement;
 
 // inputs
 const type = document.querySelector('#type')! as HTMLSelectElement;
@@ -28,7 +28,8 @@ form.addEventListener('submit', (e: Event) => {
     doc = new Payment(...values)
   }
 
-  list.render(doc, type.value, 'end')  
+  list.render(doc, type.value, 'end')
+  form.reset() 
 })
 
 

@@ -1,7 +1,7 @@
 import { Invoice } from './classes/Invoice.js';
 import { ListTemplate } from './classes/ListTemplate.js';
 import { Payment } from './classes/Payment.js';
-const form = document.querySelector('.new-item-form');
+let form = document.querySelector('.new-item-form');
 // inputs
 const type = document.querySelector('#type');
 const tofrom = document.querySelector('#tofrom');
@@ -22,6 +22,7 @@ form.addEventListener('submit', (e) => {
         doc = new Payment(...values);
     }
     list.render(doc, type.value, 'end');
+    form.reset();
 });
 // EXTRA INFORMATION - Tutorial
 // GENERICS
