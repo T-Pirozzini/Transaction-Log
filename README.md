@@ -8,4 +8,4 @@ This is my first mini-project completed with Typescript. Practice with Generics,
 ## Code Tutorial: 
 NetNinja: Typescript Tutorial
 
-*This project was a completed as a course code-along
+*This project was completed as a course code-along
