@@ -4,6 +4,7 @@
   "description": "This is my first mini-project completed with Typescript. Practice with Generics, Enums and Tuples.\r #### Typescript",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack-dev-server",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
